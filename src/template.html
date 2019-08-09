@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Edmond Ma | Front-End Web Developer</title>
+
+		<!-- Add your custom Favicon -->
+		<link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+		<!-- SEO -->
+		<meta
+			name="keywords"
+			content="[edjunma], [edmond], developer,front-end,full-stack, javascript, react"
+		/>
+		<meta name="description" content="[Edmond (Jun Wen) Ma] | Front-End Web Developer" />
+
+		<!-- Scroll Reveal -->
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script>
+			ScrollReveal({ reset: false });
+		</script>
+	</head>
+	<body>
+		<div id="top"></div>
+
+		<!-- **** Welcome Section **** -->
+		<div id="welcome-section" class="jumbotron">
+			<div class="container">
+				<!-- Navbar -->
+				<!-- <nav id="navbar">
+					<a href="#"><img src="images/logo.png" alt="" id="logo"</a>
+					<ul>
+						<li><a href="#" class="current">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="https://findedmond.com/" target="_blank">Blog</a></li>
+					</ul>
+				</nav> -->
+				<!-- Opening Text -->
+				<h1 id="opening-text" class="load-hidden">
+					Hi, my name is <span class="text-color-main">Edmond Ma</span>
+					<br />
+					I'm a Front-End Web Developer.
+				</h1>
+				<!-- /END Opening Text -->
+
+				<!-- Opening Call To Action -->
+				<p id="opening-paragraph" class="load-hidden">
+					<a class="cta-btn cta-btn--hero know-more" href="#about">Know More</a>
+				</p>
+			</div>
+		</div>
+		<!-- /END Welcome Section -->
+
+		<!-- **** About Section **** -->
+		<section id="about">
+			<div class="container">
+				<h2 class="section-title">
+					About me
+				</h2>
+				<br />
+				<div class="row about-wrapper">
+					<div class="col-md-6 col-sm-12">
+						<div class="about-wrapper__image">
+							<!-- Profile image: -->
+							<div data-tilt class="thumbnail rounded">
+								<img
+									class="img-fluid rounded shadow-lg"
+									height="auto"
+									width="300px"
+									src="./images/profile.jpg"
+									alt="Profile Image"
+								/>
+							</div>
+							<!-- /END Profile image -->
+						</div>
+						<!-- Skills Sections -->
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="about-wrapper__info">
+							<!-- 
+                Profile about-text: separate each block of text with 2 <br />
+                I recommend to have no more that 4 block of text
+              -->
+							<p class="about-wrapper__info-text">
+								Nice to meet you! My name is Edmond, an aspiring Full-Stack Web Developer. Eight
+								months ago, I fell in love with the capabilities of web development after creating
+								my first few projects. I was hooked ever since, from constantly learning new things
+								everyday and applying it by building websites and applications for the real world
+								was an exhilarating experience.
+								<br /><br />
+								Currently my primary goal is to build a strong front-end foundation with JavaScript
+								and React. Then further on as I build upon my experiences, I want to achieve
+								full-stack from learning more about back-end skills like NodeJS, Express, PHP, and
+								Python.
+								<br /><br />
+								When I'm not doing web development, I'm probably still doing something related to
+								web development or on the web itself like YouTube to learn or watch funny dog videos
+								anyway. I also have passions for cooking, health & fitness, video games, anime,
+								learning about the latest technologies, coding side projects, financial investments,
+								traveling, and of course<span>🐶</span> doggos. <br /><br />
+
+								<!-- 
+                  Resume Link: Put your external resume link in href
+                -->
+								<a
+									target="_blank"
+									class="cta-btn cta-btn--resume view-resume"
+									href="./images/resume.pdf"
+								>
+									View Resume
+								</a>
+								<!-- /END Resume link -->
+							</p>
+							<!-- /END Profile about text  -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<a href="#projects" class="about-arrow">
+				<i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+			</a>
+		</section>
+		<!-- /END About Section -->
+
+		<!-- **** Projects Section **** -->
+		<section id="projects">
+			<div class="container">
+				<!-- Personal projects -->
+				<div class="project-wrapper">
+					<h2 class="section-title dark-blue-text">
+						Projects
+					</h2>
+					<!-- Each .row is a project block -->
+					<div class="row">
+						<div class="col-lg-4 col-sm-12">
+							<div class="project-wrapper__text">
+								<!-- 1) project title -->
+								<h3 class="project-wrapper__text-title">CRWN-Clothing</h3>
+								<!-- 2) project info -->
+								<div>
+									<p class="mb-4">
+										E-commerce web application made with React, Redux, Stripe, Firebase, ContextAPI,
+										and React Hooks.
+									</p>
+								</div>
+								<!-- 3) project url  -->
+								<a
+									target="_blank"
+									class="cta-btn cta-btn--hero"
+									href="https://ejm-crwn.herokuapp.com/"
+								>
+									Live Demo
+								</a>
+								<!-- 4) project repository url -->
+								<a
+									target="_blank"
+									class="cta-btn text-color-main"
+									href="https://github.com/edjunma/crwn-clothing"
+								>
+									Source Code
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-sm-12">
+							<div class="project-wrapper__image">
+								<!-- 1) project url -->
+								<a href="https://ejm-crwn.herokuapp.com/" target="_blank">
+									<div data-tilt class="thumbnail rounded">
+										<!-- 2) project image path  -->
+										<img
+											class="img-fluid"
+											src="./images/project-1-ecommerce.jpg"
+											width="1366"
+											height="767"
+										/>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- /END Project block -->
+
+					<!-- Each .row is a project block -->
+					<div class="row">
+						<div class="col-lg-4 col-sm-12">
+							<div class="project-wrapper__text">
+								<!-- 1) project title -->
+								<h3 class="project-wrapper__text-title">GatsbyJS Blog</h3>
+								<!-- 2) project info -->
+								<div>
+									<p class="mb-4">
+										GatsbyJS blog made with Complete React Developer course with Yihua
+									</p>
+								</div>
+								<!-- 3) project url  -->
+								<a
+									target="_blank"
+									class="cta-btn cta-btn--hero"
+									href="https://ejm-dev-blog.netlify.com/"
+								>
+									Live Demo
+								</a>
+								<!-- 4) project repository url -->
+								<a
+									target="_blank"
+									class="cta-btn text-color-main"
+									href="https://github.com/edjunma/gatsby-blog"
+								>
+									Source Code
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-sm-12">
+							<div class="project-wrapper__image">
+								<!-- 1) project url -->
+								<a href="https://ejm-dev-blog.netlify.com/" target="_blank">
+									<div data-tilt class="thumbnail rounded">
+										<!-- 2) project image path  -->
+										<img
+											class="img-fluid"
+											src="./images/project-2-gatsby-blog.jpg"
+											width="1366"
+											height="767"
+										/>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- /END Project block -->
+
+					<!-- Each .row is a project block -->
+					<div class="row">
+						<div class="col-lg-4 col-sm-12">
+							<div class="project-wrapper__text">
+								<!-- 1) project title -->
+								<h3 class="project-wrapper__text-title">Apex Legends Stats Tracker</h3>
+								<!-- 2) project info -->
+								<div>
+									<p class="mb-4">
+										Full-Stack web application built using VueJS and Express utilizing the Tracker
+										Network API from tracker.gg to track and display player stats from their
+										respective platforms.
+									</p>
+								</div>
+								<!-- 3) project url -->
+								<a
+									target="_blank"
+									class="cta-btn cta-btn--hero"
+									href="https://apex-legends-tracker.herokuapp.com/"
+								>
+									Live Demo
+								</a>
+								<!-- 4) project repository url  -->
+								<a
+									target="_blank"
+									class="cta-btn text-color-main"
+									href="https://github.com/edjunma/apex-legends-tracker"
+								>
+									Source Code
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-sm-12">
+							<div class="project-wrapper__image">
+								<!-- 1) project url -->
+								<a href="https://apex-legends-tracker.herokuapp.com/" target="_blank">
+									<div data-tilt class="thumbnail rounded">
+										<!-- 2) project image path -->
+										<img
+											class="img-fluid"
+											src="./images/project-3-apex-legends-tracker.jpg"
+											width="1366"
+											height="767"
+										/>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- /END Project block -->
+
+					<!-- Each .row is a project block -->
+					<div class="row">
+						<div class="col-lg-4 col-sm-12">
+							<div class="project-wrapper__text">
+								<!-- 1) project title -->
+								<h3 class="project-wrapper__text-title">Face Recognition App</h3>
+								<!-- 2) project info -->
+								<div>
+									<p class="mb-4">
+										Full-Stack web application built using React
+									</p>
+								</div>
+								<!-- 3) project url -->
+								<a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+									Live Demo
+								</a>
+								<!-- 4) project repository url  -->
+								<a target="_blank" class="cta-btn text-color-main" href="#!">
+									Source Code
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-sm-12">
+							<div class="project-wrapper__image">
+								<!-- 1) project url -->
+								<a href="#!" target="_blank">
+									<div data-tilt class="thumbnail rounded">
+										<!-- 2) project image path -->
+										<img class="img-fluid" src="./images/banner.png" width="1366" height="767" />
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- /END Project block -->
+				</div>
+				<!-- /END Personal projects -->
+			</div>
+		</section>
+		<!-- /END Projects Section -->
+
+		<!-- **** Contact Section **** -->
+		<section id="contact">
+			<div class="container">
+				<h2 class="section-title">
+					Contact Me
+				</h2>
+				<div class="contact-wrapper">
+					<!-- 1) Contact Call To Action: change if necessary -->
+					<p class="contact-wrapper__text">
+						I'm currently available for new opportunities.
+						<br />
+						<br />
+						Have a project in mind that you'd like to get started with? Need help with solving a
+						problem? Fancy a conversation with coffee <span>☕</span> or tea <span>🍵</span>? Please
+						feel free to connect with me and leave a message. I will get back to you as soon as
+						possible!
+					</p>
+					<br />
+					<!-- 2) Contact mail link: change to your work email & change text if necessary -->
+					<a target="_blank" class="cta-btn cta-btn--resume" href="mailto:edjunma@gmail.com"
+						>Let's Talk!</a
+					>
+				</div>
+			</div>
+		</section>
+		<!-- /END Contact Section -->
+
+		<!-- **** Footer Section **** -->
+		<footer class="footer navbar-static-bottom">
+			<div class="container">
+				<a href="#top" class="back-to-top">
+					<i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+				</a>
+				<!-- Social Links -->
+				<ul class="social-links">
+					<li class="linkedin">
+						<a href="https://www.linkedin.com/in/ejwm18/" target="_blank" title="LinkedIn">
+							<i class="fab fa-linkedin fa-inverse" id="linkedin"></i>
+						</a>
+					</li>
+					<li class="github">
+						<a href="https://github.com/edjunma" target="_blank" title="GitHub">
+							<i class="fab fa-github fa-inverse"></i>
+						</a>
+					</li>
+					<li class="twitter">
+						<a href="https://twitter.com/edjunma" target="_blank" title="Twitter">
+							<i class="fab fa-twitter fa-inverse"></i>
+						</a>
+					</li>
+					<li class="instagram">
+						<a href="https://www.instagram.com/edjunma/" target="_blank" target="_blank">
+							<i class="fab fa-instagram fa-inverse" title="Instagram"></i>
+						</a>
+					</li>
+					<li class="codepen">
+						<a href="https://codepen.io/edjunma/" target="_blank" title="CodePen">
+							<i class="fab fa-codepen fa-inverse"></i>
+						</a>
+					</li>
+					<li class="devto">
+						<a href="https://dev.to/edjunma">
+							<i class="fab fa-dev fa-inverse" target="_blank" title="Dev.to"></i>
+						</a>
+					</li>
+				</ul>
+				<!-- /END Social Links -->
+
+				<hr />
+
+				<p class="footer__text">
+					&copy
+					<script>
+						document.write(new Date().getFullYear());
+					</script>
+					- Developed with ♥ by
+					<a href="https://github.com/edjunma" target="_blank">Edmond Ma</a>
+					&
+					<a href="https://github.com/cobimr" target="_blank">Jacobo Martinez</a>
+				</p>
+			</div>
+		</footer>
+		<!-- /END Footer Section -->
+
+		<!-- Font Awesome CDN -->
+		<script src="https://kit.fontawesome.com/561f520f53.js"></script>
+	</body>
+</html>
