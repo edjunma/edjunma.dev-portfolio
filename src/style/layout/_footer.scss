@@ -96,6 +96,10 @@
 		color: #006400;
 		transition: 0.3s;
 	}
+
+	@include respond(phone) {
+		font-size: 2rem;
+	}
 }
 
 .back-to-top i {
