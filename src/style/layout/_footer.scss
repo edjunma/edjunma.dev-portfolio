@@ -98,12 +98,6 @@
 		color: #006400;
 		transition: 0.3s;
 	}
-
-	@media only screen and (min-width: 600px) {
-		.social-links a {
-			
-		}
-	}
 }
 
 .back-to-top i {
@@ -113,5 +107,12 @@
 
 	&:hover {
 		transform: translateY(-3px);
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.social-links a {
+		margin: auto;
+		font-size: 1rem;
 	}
 }
