@@ -6,7 +6,7 @@
 	font-weight: bold;
 	line-height: 1;
 	z-index: 1;
-	transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
 
 	&::after {
 		content: '';
@@ -22,9 +22,10 @@
 }
 
 /* Hero Style */
-.know-more {
-	display: block;
-	margin: auto;
+.view-portfolio {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .cta-btn--hero {
