@@ -12,10 +12,10 @@ particlesJS(
 	{
 		particles: {
 			number: {
-				value: 80,
+				value: 120,
 				density: {
 					enable: true,
-					value_area: 800
+					value_area: 1000
 				}
 			},
 			color: {
@@ -28,7 +28,7 @@ particlesJS(
 					color: '#000000'
 				},
 				polygon: {
-					nb_sides: 3
+					nb_sides: 5
 				},
 				image: {
 					src: 'img/github.svg',
@@ -37,7 +37,7 @@ particlesJS(
 				}
 			},
 			opacity: {
-				value: 1,
+				value: 0.5,
 				random: true,
 				anim: {
 					enable: false,
@@ -47,7 +47,7 @@ particlesJS(
 				}
 			},
 			size: {
-				value: 8,
+				value: 10,
 				random: true,
 				anim: {
 					enable: false,
@@ -74,7 +74,7 @@ particlesJS(
 				attract: {
 					enable: false,
 					rotateX: 600,
-					rotateY: 600
+					rotateY: 1200
 				}
 			}
 		},
@@ -83,7 +83,7 @@ particlesJS(
 			events: {
 				onhover: {
 					enable: true,
-					mode: 'repulse'
+					mode: 'bubble'
 				},
 				onclick: {
 					enable: true,
@@ -99,18 +99,18 @@ particlesJS(
 					}
 				},
 				bubble: {
-					distance: 250,
-					size: 0,
-					duration: 2,
-					opacity: 0,
+					distance: 400,
+					size: 5,
+					duration: 0.3,
+					opacity: 1,
 					speed: 3
 				},
 				repulse: {
 					distance: 200,
-					duration: 0.5
+					duration: 0.4
 				},
 				push: {
-					particles_nb: 3
+					particles_nb: 4
 				},
 				remove: {
 					particles_nb: 2
