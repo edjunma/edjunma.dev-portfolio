@@ -26,14 +26,14 @@ git@2.17.1 or higher
 
 ## How To Use 🔧
 
-From your command line, clone and run Simplefolio:
+From your command line, clone and run:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cobimr/simplefolio
+$ git clone https://github.com/edjunma/edjunma.dev-portfolio
 
 # Go into the repository
-$ cd simplefolio
+$ cd edjunma.dev-portfolio/
 
 # Remove current origin repository
 $ git remote remove origin
