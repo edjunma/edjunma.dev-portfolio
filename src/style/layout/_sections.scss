@@ -22,7 +22,6 @@ section {
 	font-weight: 400;
 	color: $dark-blue-text;
 	background: $white-color;
-	padding: 0rem 5.6rem;
 	margin-bottom: 0;
 	position: absolute;
 	top: 0;
@@ -56,6 +55,7 @@ section {
 		}
 		@include respond(phone-xs) {
 			font-size: 2.8rem;
+			line-height: 1.5;
 		}
 	}
 
