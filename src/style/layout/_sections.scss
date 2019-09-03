@@ -50,11 +50,11 @@ section {
 			text-align: center;
 		}
 		@include respond(phone) {
-			font-size: 3.5rem;
+			font-size: 3rem;
 			line-height: 1.5;
 		}
 		@include respond(phone-xs) {
-			font-size: 2.8rem;
+			font-size: 2.5rem;
 			line-height: 1.5;
 		}
 	}
@@ -67,15 +67,15 @@ section {
 			font-size: 3rem;
 		}
 		@include respond(tab-port) {
-			font-size: 2.6rem;
+			font-size: 2.5rem;
 			text-align: center;
 		}
 		@include respond(phone) {
-			font-size: 2.5rem;
+			font-size: 2rem;
 			line-height: 1.5;
 		}
 		@include respond(phone-xs) {
-			font-size: 1.8rem;
+			font-size: 1.5rem;
 		}
 	}
 
@@ -117,12 +117,50 @@ section {
 	}
 
 	.skill-cards i {
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 
 	.skill-cards h3 {
 		margin: auto;
 		padding: 1rem;
+	}
+
+	.skill-cards img {
+		width: 100%;
+		max-width: 50px;
+		height: auto;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.skill-cards {
+			flex-direction: row;
+		}
+		.skill-cards img {
+			width: 20px;
+		}
+	}
+
+	@media only screen and (max-height: 568px) {
+		.skill-cards {
+			display: none;
+		}
+	}
+
+	// Responsive for opening text
+	@include respond(tab-land) {
+		font-size: 4rem;
+	}
+	@include respond(tab-port) {
+		font-size: 3.6rem;
+		text-align: center;
+	}
+	@include respond(phone) {
+		font-size: 3rem;
+		line-height: 1.5;
+	}
+	@include respond(phone-xs) {
+		font-size: 2.5rem;
+		line-height: 1.5;
 	}
 }
 

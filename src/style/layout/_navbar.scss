@@ -29,7 +29,7 @@
 	color: $dark-blue-text;
 	font-size: 2rem;
 	font-weight: bold;
-	padding: 2rem;
+	padding: 1.5rem;
 	margin: 2rem;
 	display: block;
 
@@ -92,6 +92,7 @@
 	}
 }
 
+// Mobile Responsiveness
 @media only screen and (max-width: 600px) {
 	#logo img {
 		display: none;
@@ -99,5 +100,13 @@
 
 	.skill-cards {
 		font-size: 1rem;
+	}
+}
+
+// Tablet Responsiveness
+@media only screen and (max-width: 768px) {
+	.navbar-links li a {
+		padding: 1rem;
+		margin: 1rem;
 	}
 }
