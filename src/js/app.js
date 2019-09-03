@@ -12,10 +12,10 @@ particlesJS(
 	{
 		particles: {
 			number: {
-				value: 120,
+				value: 60,
 				density: {
 					enable: true,
-					value_area: 1000
+					value_area: 800
 				}
 			},
 			color: {
@@ -38,7 +38,7 @@ particlesJS(
 			},
 			opacity: {
 				value: 0.5,
-				random: true,
+				random: false,
 				anim: {
 					enable: false,
 					speed: 1,
@@ -47,7 +47,7 @@ particlesJS(
 				}
 			},
 			size: {
-				value: 10,
+				value: 3,
 				random: true,
 				anim: {
 					enable: false,
@@ -57,16 +57,16 @@ particlesJS(
 				}
 			},
 			line_linked: {
-				enable: false,
-				distance: 500,
-				color: '#ffffff',
+				enable: true,
+				distance: 150,
+				color: '#888',
 				opacity: 0.4,
-				width: 2
+				width: 1
 			},
 			move: {
 				enable: true,
-				speed: 0.5,
-				direction: 'top',
+				speed: 3,
+				direction: 'none',
 				random: true,
 				straight: false,
 				out_mode: 'out',
@@ -95,14 +95,14 @@ particlesJS(
 				grab: {
 					distance: 400,
 					line_linked: {
-						opacity: 0.5
+						opacity: 1
 					}
 				},
 				bubble: {
 					distance: 400,
-					size: 5,
-					duration: 0.3,
-					opacity: 1,
+					size: 40,
+					duration: 2,
+					opacity: 8,
 					speed: 3
 				},
 				repulse: {
