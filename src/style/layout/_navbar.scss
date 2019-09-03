@@ -2,12 +2,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: white;
-	color: #333;
+	background-color: transparent;
 }
 
 #logo {
-	margin: 1rem;
+	margin: 2rem;
 	max-height: 8rem;
 }
 
@@ -23,21 +22,23 @@
 
 .navbar-links li a {
 	text-decoration: none;
-	color: #888;
+	color: $dark-blue-text;
 	font-size: 2rem;
-	padding: 3rem;
+	font-weight: bold;
+	padding: 2rem;
+	margin: 2rem;
 	display: block;
-	transition: all 0.2s ease;
 
 	&:hover {
 		transform: translateY(-2px);
-		text-shadow: 1px 1px 1px #333;
+		text-shadow: 1px 1px 1px $primary-color;
+		border-bottom: 2px solid $secondary-color;
 	}
 }
 
 .toggle-button {
 	position: absolute;
-	top: 0.75rem;
+	top: 1rem;
 	right: 1rem;
 	display: none;
 	flex-direction: column;
@@ -49,7 +50,7 @@
 .toggle-button .bar {
 	height: 3px;
 	width: 100%;
-	background-color: white;
+	background-color: $dark-blue-text;
 	border-radius: 10px;
 }
 
@@ -83,5 +84,6 @@
 
 	.navbar-links.active {
 		display: flex;
+		background: white;
 	}
 }

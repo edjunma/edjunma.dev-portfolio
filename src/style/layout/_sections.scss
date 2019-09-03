@@ -94,6 +94,36 @@ section {
 			}
 		}
 	}
+
+	.skills-container {
+		display: flex;
+		flex-flow: row wrap;
+		align-content: center;
+		justify-content: space-evenly;
+		width: 100%;
+		margin: 2rem auto;
+		max-width: 800px;
+	}
+
+	.skill-cards {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		box-sizing: border-box;
+		margin: 10px;
+		min-width: 120px;
+		z-index: -1;
+	}
+
+	.skill-cards i {
+		font-size: 3rem;
+	}
+
+	.skill-cards h3 {
+		margin: auto;
+		padding: 1rem;
+	}
 }
 
 /* ---ABOUT SECTION--- */
