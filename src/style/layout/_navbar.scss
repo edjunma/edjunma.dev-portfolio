@@ -6,8 +6,12 @@
 }
 
 #logo {
-	margin: 2rem;
-	max-height: 8rem;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	bottom: 1rem;
+	left: 2rem;
 }
 
 .navbar-links ul {
@@ -85,5 +89,15 @@
 	.navbar-links.active {
 		display: flex;
 		background: white;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#logo img {
+		display: none;
+	}
+
+	.skill-cards {
+		font-size: 1rem;
 	}
 }

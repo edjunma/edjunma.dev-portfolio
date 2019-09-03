@@ -8,6 +8,12 @@ export default function() {
 	};
 
 	// Welcome Section
+	ScrollReveal().reveal('#navbar', {
+		...defaultProps,
+		reset: true,
+		delay: 500,
+		origin: window.innerWidth > 768 ? 'left' : 'bottom'
+	});
 	ScrollReveal().reveal('#opening-text', {
 		...defaultProps,
 		reset: true,
@@ -15,6 +21,12 @@ export default function() {
 		origin: window.innerWidth > 768 ? 'left' : 'bottom'
 	});
 	ScrollReveal().reveal('#opening-paragraph', {
+		...defaultProps,
+		reset: true,
+		delay: 1000,
+		origin: window.innerWidth > 768 ? 'left' : 'bottom'
+	});
+	ScrollReveal().reveal('.skills-container', {
 		...defaultProps,
 		reset: true,
 		delay: 1000,
