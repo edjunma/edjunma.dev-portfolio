@@ -1,7 +1,7 @@
 {
 	"name": "EJM-Portfolio",
 	"version": "1.0.0",
-	"description": "My portfolio",
+	"description": "edjunma.dev Portfolio",
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack-dev-server --config webpack.dev.js --open",
